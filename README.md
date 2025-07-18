@@ -45,11 +45,16 @@ Tailwind CSS
 
 Axios
 
+
+
 Context API
 
 json-server (for local API)
 
 ✅ Challenge
 This project is based on a challenge from Frontend Mentor. It replicates an extension manager layout and functionality, using real-world interaction patterns and mock data.
+
+
+<img width="1893" height="819" alt="image" src="https://github.com/user-attachments/assets/8ad85b25-a32c-470e-a510-390df164efd7" />
 
 
