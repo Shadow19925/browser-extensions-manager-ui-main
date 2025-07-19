@@ -17,7 +17,7 @@ export default function FilterBar() {
           <Buttons
             key={filter.label}
             label={filter.label}
-            selectBut={filter.isSelected}
+            selectedBut={filter.isSelected}
             onClick={() => {
               setFilterType((prev) =>
                 prev.map((item) =>

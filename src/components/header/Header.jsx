@@ -10,7 +10,7 @@ export default function Header() {
           : `bg-white `
       }  rounded-3xl `}
     >
-      <img src="/images/logo.svg" alt="Logo" className="h-15 w-15" />
+      <img src="images/logo.svg" alt="Logo" className="h-15 w-15" />
 
       <DarkModeButton />
     </header>

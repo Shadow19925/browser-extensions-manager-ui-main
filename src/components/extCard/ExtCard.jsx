@@ -58,7 +58,7 @@ function CardComp({ isDarkMode, ext, setExtData, extData }) {
             alt={ext.name}
             src={ext.logo
               .replace("./", "/")
-              .replace("/assets/images/", "/images/")}
+              .replace("/assets/images/", "images/")}
           />
         </div>
         <div>

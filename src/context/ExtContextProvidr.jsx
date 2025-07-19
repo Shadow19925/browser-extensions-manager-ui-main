@@ -1,5 +1,6 @@
 import { useContext, createContext, useState, useEffect } from "react";
-import axios from "axios";
+// import axios from "axios"; use this when using the mockup server
+import DataEXTInfo from "../data/Data";
 
 const ExtDataContext = createContext();
 
@@ -17,17 +18,18 @@ function ExtContextProvidr({ children }) {
   useEffect(() => {
     const fetchExtData = () => {
       setIsloading(true);
-      axios
-        .get("http://localhost:3000/Extensions")
-        .then((res) => {
-          setExtData(res.data);
-          setIsloading(false);
-        })
-        .catch((err) => {
-          setIsloading(false);
-          setErrorMessage(err.errorMessage);
-        })
-        .finally(() => setIsloading(false));
+      // axios
+      //   .get("http://localhost:3000/Extensions")
+      //   .then((res) => {
+      //     setExtData(res.data);
+      //     setIsloading(false);
+      //   })
+      //   .catch((err) => {
+      //     setIsloading(false);
+      //     setErrorMessage(err.errorMessage);
+      //   })
+      //   .finally(() => setIsloading(false));
+      setExtData(DataEXTInfo);
     };
     fetchExtData();
   }, []);

@@ -12,7 +12,7 @@ export default function DarkModeButton() {
       onClick={toggleDarkMode}
     >
       <img
-        src={isDarkMode ? "/images/icon-sun.svg" : "/images/icon-moon.svg"}
+        src={isDarkMode ? "images/icon-sun.svg" : "images/icon-moon.svg"}
         alt="Toggle Dark Mode"
       />
     </button>
